@@ -31,6 +31,9 @@ public:
     // clear image.
     void clearImage();
     
+    // get image pointer.
+    ofImage *getImage() {return image;}
+    
     // set image anchor by percent.(0.0-1.0)
     void setAnchorPercent(float x, float y);
     
